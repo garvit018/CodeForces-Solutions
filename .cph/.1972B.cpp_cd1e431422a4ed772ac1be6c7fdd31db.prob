@@ -1,0 +1,1 @@
+{"name":"Local: 1972B","url":"c:\\Users\\VIVEK GOYAL\\CompetitveProgramming\\1972B.cpp","tests":[{"id":1735626673932,"input":"3\n5\nUUDUD\n5\nUDDUD\n2\nUU\n","output":"YES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\VIVEK GOYAL\\CompetitveProgramming\\1972B.cpp","group":"local","local":true}

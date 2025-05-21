@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define vi vector<int64_t>
+#define umap unordered_map
+#define uset unordered_set
+#define pb push_back
+
+int main()
+{
+    cin.tie(0)->sync_with_stdio(0);
+    ll tt;
+    cin >> tt;
+    while (tt--)
+    {
+        ll l, r;
+        cin >> l >> r;
+        ll x = 1, saare_num = 0;
+        while (l <= r)
+        {
+            l += x;
+            saare_num++;
+            x++;
+        }
+        cout << saare_num << endl;
+    }
+    return 0;
+}
