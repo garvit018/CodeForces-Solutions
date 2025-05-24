@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define read(x) \
+    int64_t x;  \
+    cin >> x;
+#define ll long long
+#define vi vector<int64_t>
+#define umap unordered_map
+#define uset unordered_set
+#define pb push_back
+#define fr(i, a, b) for (int64_t i = (a); i < (b); ++i)
+
+int main()
+{
+    cin.tie(0)->sync_with_stdio(0);
+    read(tt);
+    while (tt--)
+    {
+        read(n);
+        ll ans = 1, x = 1;
+        while (x < n)
+        {
+            x++;
+            x *= 2;
+            ans++;
+        }
+        cout << ans << endl;
+    }
+    return 0;
+}
