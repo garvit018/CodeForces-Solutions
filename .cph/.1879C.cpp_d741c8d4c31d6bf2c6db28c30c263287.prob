@@ -1,0 +1,1 @@
+{"name":"Local: 1879C","url":"c:\\Users\\kanis\\OneDrive\\Desktop\\CodeForces-Solutions\\1879C.cpp","tests":[{"id":1766831815605,"input":"3\n10010\n111\n0101\n","output":"1 2\n2 6\n0 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\kanis\\OneDrive\\Desktop\\CodeForces-Solutions\\1879C.cpp","group":"local","local":true}
